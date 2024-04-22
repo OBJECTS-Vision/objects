@@ -1,12 +1,15 @@
 <div class="content">
-  <bodycopy
-    ><b>OBJECTS</b> is shaping physical design and engineering for a new
-    generation. Want to help us or learn more? Email us:
-    <u><a href="mailto:hi@objects.vision" rel="mailto">hi@objects.vision</a></u
-    ></bodycopy
-  >
-  <bodycopy>Are you one of these people or know them?</bodycopy>
-
+  <span class="text">
+    <bodycopy
+      ><b>OBJECTS</b> is shaping physical design and engineering for a new
+      generation. Want to help us or learn more? Email us:
+      <u
+        ><a href="mailto:hi@objects.vision" rel="mailto">hi@objects.vision</a
+        ></u
+      ></bodycopy
+    >
+    <bodycopy>Are you one of these people or know them?</bodycopy>
+  </span>
   <iframe
     frameborder="0"
     title="Objects People of Interest"
@@ -22,5 +25,10 @@
   }
   bodycopy {
     color: black;
+  }
+  .text {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
   }
 </style>
