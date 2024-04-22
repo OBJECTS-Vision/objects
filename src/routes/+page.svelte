@@ -1,7 +1,7 @@
 <script></script>
 
 <div class="content">
-  <bodycopy> Design and manufacturing for the next generation.</bodycopy>
+  <bodycopy> Design and manufacturing for a new generation.</bodycopy>
 </div>
 
 <style>
