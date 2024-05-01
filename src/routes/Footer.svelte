@@ -2,14 +2,27 @@
   import Instagram from "$lib/components/icons/Instagram.svelte";
   import Tiktok from "$lib/components/icons/Tiktok.svelte";
   import X from "$lib/components/icons/X.svelte";
+  import Farcaster from "$lib/components/icons/Farcaster.svelte";
   import { page } from "$app/stores";
 </script>
 
-<div class="content" class:justify-end={$page.url.pathname === "/"} class:justify-space-between={$page.url.pathname !== "/"}>
+<div
+  class="content"
+  class:justify-end={$page.url.pathname === "/"}
+  class:justify-space-between={$page.url.pathname !== "/"}
+>
   {#if $page.url.pathname !== "/"}
     <span class="copyright"><h2>© 2024 OBJECTS</h2></span>
   {/if}
   <span class="icon-links">
+    <a
+      class="icon-link"
+      href="https://warpcast.com/objects"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <Farcaster /></a
+    >
     <a
       class="icon-link"
       href="https://instagram.com/objects.ig"
